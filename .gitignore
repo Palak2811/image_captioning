@@ -1,0 +1,6 @@
+/__pycache__/
+/Flickr8k_Dataset/
+attention_testing.ipynb
+Flickr8k.token.txt
+image_captioning.ipynb
+imagecaption_attension_colab.ipynb
