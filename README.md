@@ -110,9 +110,10 @@ Generated Caption: a dog is running in the grass
 
 
 ## ▶️ How to Run
- Made a streamlit live demo of the model
+ Made a streamlit  demo of the model
+ to run :- "streamlit run app.py"
 
- Key Technical Takeaways
+## Key Technical Takeaways
 Implemented encoder–decoder architectures from scratch
 
 Applied attention mechanisms for visual grounding
