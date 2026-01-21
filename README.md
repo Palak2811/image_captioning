@@ -25,6 +25,12 @@ Unlike classification, multiple correct captions can exist for the same image, r
 
 ---
 
+## Live Demo
+You can try out the live application here: https://image--captioning.streamlit.app/
+
+Application Screenshot:-<img width="575" height="759" alt="image" src="https://github.com/user-attachments/assets/45f7a4aa-986f-45e9-8b2d-214f052868e5" />
+
+
 ##  Architecture Overview
 
 Input Image
@@ -76,7 +82,11 @@ Generated Caption
 - Special tokens: `<start>`, `<end>`, `<pad>`
 - Vocabulary pruning for efficiency
 
-
+#Tech Stack
+-Deep Learning: PyTorch, Torchvision
+-Web Framework: Streamlit
+-Data Science & Machine Learning: NumPy, NLTK
+-Image Processing: Pillow
 
 ##  Training Details
 
@@ -109,9 +119,16 @@ Input Image: dog.jpg
 Generated Caption: a dog is running in the grass
 
 
-## ▶️ How to Run
- Made a streamlit  demo of the model
- to run :- "streamlit run app.py"
+##  How to Run Locally
+ Clone the repository:
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Install the dependencies:
+pip install -r requirements.txt
+
+Run the Streamlit app:
+streamlit run app.py
 
 ## Key Technical Takeaways
 Implemented encoder–decoder architectures from scratch
