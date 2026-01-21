@@ -1,4 +1,4 @@
- Attention-based Image Captioning with CNN–LSTM and Beam Search
+ ###Attention-based Image Captioning with CNN–LSTM and Beam Search###
 
 A **production-quality Image Captioning system** that generates natural language descriptions for images using a **pretrained CNN encoder**, an **attention-based LSTM decoder**, and **beam search decoding**.  
 The project demonstrates strong fundamentals in **deep learning, sequence modeling, and multimodal AI**.
