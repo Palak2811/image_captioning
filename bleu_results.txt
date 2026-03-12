@@ -1,0 +1,66 @@
+BLEU EVALUATION RESULTS
+==================================================
+Model       : ResNet-50 + Attention LSTM
+Dataset     : Flickr8k
+Images      : 500
+--------------------------------------------------
+Metric         Greedy   Beam (k=3)
+-----------------------------------
+BLEU-1         0.6305       0.6208
+BLEU-2         0.4642       0.4548
+BLEU-3         0.3368       0.3358
+BLEU-4         0.2345       0.2393
+==================================================
+
+SAMPLE CAPTIONS (first 10 images)
+--------------------------------------------------
+
+Image     : 1000268201_693b08cb0e.jpg
+Greedy    : a little girl in a pink dress is standing in front of a wooden structure
+Beam      : a little girl in a pink dress is standing next to a brick building
+Reference : a child in a pink dress is climbing up a set of stairs in an entry way .
+
+Image     : 1001773457_577c3a7d70.jpg
+Greedy    : two dogs are running on the sidewalk
+Beam      : a black dog and a white dog are running on the sidewalk
+Reference : a black dog and a spotted dog are fighting
+
+Image     : 1002674143_1b742ab4b8.jpg
+Greedy    : a little girl in a yellow dress is playing with a rainbow painted
+Beam      : a little girl is sitting in a field with a rainbow painted on it
+Reference : a little girl covered in paint sits in front of a painted rainbow with her hands in a bowl .
+
+Image     : 1003163366_44323f5815.jpg
+Greedy    : a dog is running on a course
+Beam      : a woman and a dog sitting on a bench in a park
+Reference : a man lays on a bench while his dog sits by him .
+
+Image     : 1007129816_e794419615.jpg
+Greedy    : a man with a mohawk and sunglasses smiles
+Beam      : a man wearing a white shirt and hat is looking at something
+Reference : a man in an orange hat starring at something .
+
+Image     : 1007320043_627395c3d8.jpg
+Greedy    : a young boy in a red shirt is climbing a red ropes
+Beam      : a little boy in a red shirt is climbing a red ropes
+Reference : a child playing on a rope net .
+
+Image     : 1009434119_febe49276a.jpg
+Greedy    : a dog runs through the grass
+Beam      : a brown and white dog is running through a field of grass grass
+Reference : a black and white dog is running in a grassy garden surrounded by a white fence .
+
+Image     : 1012212859_01547e3f17.jpg
+Greedy    : a white dog is running on the shore of a beach
+Beam      : a white dog is carrying a stick in its mouth in the water by the water
+Reference : a dog shakes its head near the shore , a red ball next to it .
+
+Image     : 1015118661_980735411b.jpg
+Greedy    : a boy in a blue shirt and blue jeans stands in front of a brick wall
+Beam      : a boy in a blue shirt is standing on the sidewalk
+Reference : a boy smiles in front of a stony wall in a city .
+
+Image     : 1015584366_dfcec3c85a.jpg
+Greedy    : a black dog leaps over a tree
+Beam      : a black dog is jumping over a tree branch
+Reference : a black dog leaps over a log .
